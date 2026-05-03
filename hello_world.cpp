@@ -1,12 +1,12 @@
-#include <iostream>
-#include <string>
-using namespace std;
+// main function
 int
 main()
 {
-  string n;
-  cout << "Enter ypur name: " << endl;
-  cin >> n;
-  cout << "Hello world from " << n << endl;
+  // world execute.(me)
+  std::string n;               // variabre
+  std::cout << "Enter name: "; // output comment
+  std::cin >> n;               // input function
+  std::cout << std::endl
+            << "Hello world from " << n << std::endl; // final output
   return 0;
 }
