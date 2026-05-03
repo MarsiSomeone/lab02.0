@@ -1,3 +1,5 @@
+#include <iostream>
+#include <string>
 //main function
 int main(){
 //world execute.(me)
