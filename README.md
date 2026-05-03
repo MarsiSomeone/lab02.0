@@ -145,6 +145,8 @@ To https://github.com/MarsiSomeone/lab02.0.git
 
     
 8. Проверьте, что история коммитов доступна в удалёный репозитории.
+   <img width="974" height="404" alt="image" src="https://github.com/user-attachments/assets/4c6d8452-8aa0-4af7-8069-fc547436dbf4" />
+
 
 ## Part II
 
@@ -205,10 +207,12 @@ branch 'patch1' set up to track 'origin/patch1'.
 
 
 4. Проверьте, что ветка patch1 доступна в удалёный репозитории.
-    
+    <img width="974" height="407" alt="image" src="https://github.com/user-attachments/assets/673833e2-ba1d-4634-942f-b25fd8e592c0" />
+
     
 5. Создайте pull-request patch1 -> master.
-    
+    <img width="974" height="501" alt="image" src="https://github.com/user-attachments/assets/d1f62e08-e35a-4e50-925d-607a21f366d3" />
+
     
 6. В локальной копии в ветке patch1 добавьте в исходный код комментарии.
 ```bash
@@ -250,10 +254,16 @@ branch 'patch1' set up to track 'origin/patch1'.
 
 
 8. Проверьте, что новые изменения есть в созданном на шаге 5 pull-request
-    
-    
+    <img width="974" height="553" alt="image" src="https://github.com/user-attachments/assets/e8b38d4c-f0b9-4169-85e4-b6b3ea32c236" />
+
+
+	
 9. В удалённый репозитории выполните слияние PR patch1 -> master и удалите ветку patch1 в удаленном репозитории.
-    
+    <img width="974" height="295" alt="image" src="https://github.com/user-attachments/assets/d64743ec-bfd4-498b-8360-40d5ff17b4f8" />
+	
+	<img width="974" height="231" alt="image" src="https://github.com/user-attachments/assets/e10664a5-fb96-4035-becf-3efed41c207f" />
+
+
     
 10. Локально выполните pull.
     
@@ -390,6 +400,9 @@ To https://github.com/MarsiSomeone/lab02.0.git
  * [new branch]      patch2 -> patch2
 branch 'patch2' set up to track 'origin/patch2'.
 
+<img width="974" height="511" alt="image" src="https://github.com/user-attachments/assets/db188950-7e5d-48eb-9394-1c745bc34f7e" />
+
+
     
 4. В ветке master в удаленном репозитории измените комментарии, например, расставьте знаки препинания, переведите комментарии на другой язык.
 
@@ -407,6 +420,8 @@ return 0;}
 ```
     
 5. Убедитесь, что в pull-request появились конфликтны.Для этого локально выполните pull + rebase (точную последовательность команд, следует узнать самостоятельно). Исправьте конфликты.
+   <img width="974" height="495" alt="image" src="https://github.com/user-attachments/assets/9306a3de-12f4-4a4f-950c-45e5031b6409" />
+
 
 ```bash
 git fetch origin
@@ -472,8 +487,10 @@ To https://github.com/MarsiSomeone/lab02.0.git
 
 
 7. Убедитель, что в pull-request пропали конфликтны.
-    
+    <img width="974" height="495" alt="image" src="https://github.com/user-attachments/assets/149271bc-7a0c-4e7e-86f3-cf0667b89a84" />
+
     
 8. Вмержите pull-request patch2 -> master.
-    
+    <img width="974" height="470" alt="image" src="https://github.com/user-attachments/assets/202e21f2-2814-4dc7-a396-71ee09a6ca82" />
+
     
