@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 //главная функция
 int main(){
 //world execute.(me)
