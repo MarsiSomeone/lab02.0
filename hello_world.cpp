@@ -1,7 +1,11 @@
-#include <iostream>    
- 
-#include <iostream>    
-using namespace std;  
+#include <iostream>
+#include <string>
+using namespace std;
 int main()
-{cout<<"aaa"<<endl; return 0;}  
-EOF
+{
+string n;
+cout<<"Enter ypur name: "<<endl;
+cin>>n;
+cout<<"Hello world from "<<n <<endl;
+return 0;
+}
